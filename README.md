@@ -25,9 +25,9 @@ Therefore code is well commented and mathematical intituions and equations has b
 > NOTE: Both KNN classifiers and regressors are implemented.
 
 ## Fuzzy KNN
+## KMeans
 ###### MORE COMING...
 * Logistic Regression
-* KMeans
 * MeanShift
 * Decision Tree
 * SVM
