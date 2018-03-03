@@ -26,6 +26,10 @@ Therefore code is well commented and mathematical intituions and equations has b
 
 ## Fuzzy KNN
 ## KMeans
+## Naive Bayes
+* Simple NB
+* Gaussian NB
+
 ###### MORE COMING...
 * Logistic Regression
 * MeanShift
@@ -33,7 +37,7 @@ Therefore code is well commented and mathematical intituions and equations has b
 * SVM
 
 # Similar Repositories
-* [SentiCircle Algorithm](https://github.com/sahilsehwag/Senticircle-Implementation)
+* [Senticircle Algorithm](https://github.com/sahilsehwag/Senticircle-Implementation)
 * [Fuzzy KNN](https://github.com/sahilsehwag/FuzzyKNN)
 * [Python Implementation of Various Data Structures](https://github.com/sahilsehwag/data-structures-python)
 * [Python Implementation of Various Algorithms](https://github.com/sahilsehwag/algorithms-python)
