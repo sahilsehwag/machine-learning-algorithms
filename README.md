@@ -29,9 +29,11 @@ Therefore code is well commented and mathematical intituions and equations has b
 ## Naive Bayes
 * Simple NB
 * Gaussian NB
+## Logistic Regression
+* Logistic Regression (Gradient Descent)
+* SGDClassifier (Stochastic Gradient Descent)
 
 ###### MORE COMING...
-* Logistic Regression
 * MeanShift
 * Decision Tree
 * SVM
