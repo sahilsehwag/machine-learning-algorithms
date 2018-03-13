@@ -17,6 +17,9 @@ Therefore code is well commented and mathematical intituions and equations has b
 
 > NOTE: An implementation with Stochastic Gradient Descent (SGD) optimization is also implemented.
 
+## Logistic Regression
+* Logistic Regression (Gradient Descent)
+* SGDClassifier (Stochastic Gradient Descent)
 
 ## KNN
 * KNN
@@ -26,12 +29,14 @@ Therefore code is well commented and mathematical intituions and equations has b
 
 ## Fuzzy KNN
 ## KMeans
+
 ## Naive Bayes
 * Simple NB
 * Gaussian NB
-## Logistic Regression
-* Logistic Regression (Gradient Descent)
-* SGDClassifier (Stochastic Gradient Descent)
+* Multinomial NB
+
+## PCA (Principal Component Analysis)
+
 
 ###### MORE COMING...
 * MeanShift
