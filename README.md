@@ -28,18 +28,18 @@ Therefore code is well commented and mathematical intituions and equations has b
 > NOTE: Both KNN classifiers and regressors are implemented.
 
 ## Fuzzy KNN
-## KMeans
 
 ## Naive Bayes
 * Simple NB
 * Gaussian NB
 * Multinomial NB
 
+## KMeans
+## MeanShift
 ## PCA (Principal Component Analysis)
 
 
 ###### MORE COMING...
-* MeanShift
 * Decision Tree
 * SVM
 
