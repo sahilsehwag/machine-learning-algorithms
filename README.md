@@ -35,6 +35,10 @@ Therefore code is well commented and mathematical intituions and equations has b
 * Multinomial NB
 
 ## KMeans
+
+## KMedoids
+* PAM (Partitioning Around Medoids)
+
 ## MeanShift
 ## PCA (Principal Component Analysis)
 
