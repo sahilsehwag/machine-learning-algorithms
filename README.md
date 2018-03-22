@@ -9,7 +9,9 @@ The goal of these implementations is to understand the inner workings of these a
 Therefore code is well commented and mathematical intituions and equations has been written for better understanding.
 
 # Algorithms
-## Linear Regression
+## Supervised Algorithms
+
+#### Linear Regression
 * Lasso
 * Ridge
 * ElasticNet
@@ -17,34 +19,45 @@ Therefore code is well commented and mathematical intituions and equations has b
 
 > NOTE: An implementation with Stochastic Gradient Descent (SGD) optimization is also implemented.
 
-## Logistic Regression
+#### Logistic Regression
 * Logistic Regression (Gradient Descent)
 * SGDClassifier (Stochastic Gradient Descent)
 
-## KNN
+#### KNN
 * KNN
 * Weighted KNN (inverse-distance function as weights)
 
 > NOTE: Both KNN classifiers and regressors are implemented.
 
-## Fuzzy KNN
-
-## Naive Bayes
+#### Fuzzy KNN
+#### Naive Bayes
 * Simple NB
 * Gaussian NB
 * Multinomial NB
 
-## KMeans
+#### Decision Trees
+* DecisionTreeClassifier
+	* Splitting Metrics
+		* GINI Impurity
+		* Gain Ratio **@TODO**
+* DecisionTreeRegressor **@TODO**
 
-## KMedoids
+
+## Unsupervised Algorithms
+
+#### KMeans
+#### KMedoids
 * PAM (Partitioning Around Medoids)
 
-## MeanShift
-## PCA (Principal Component Analysis)
+#### MeanShift
+
+
+## Feature Reduction Algorithms
+
+#### PCA (Principal Component Analysis)
 
 
 ###### MORE COMING...
-* Decision Tree
 * SVM
 
 # Similar Repositories
