@@ -8,57 +8,158 @@ Each jupyter notebook contains a major machine learning algorithm with their com
 The goal of these implementations is to understand the inner workings of these algorithms along with thier mathematics.
 Therefore code is well commented and mathematical intituions and equations has been written for better understanding.
 
+# Checklist
+Since these algorithm implementations are implemented so that anyone wanting to learn or implement various machine learning algorithms can
+easily understand, experiment, explore and refer, each algorithm has a checklist:
+<br>
+* **sklearn**: *If implemented as an Scikit-Learn estimator/transformer etc...*
+* **score comparison**: *If a score/result comparison with sklearn's inbuilt implementations.*
+* **notes**: *If notebook contains notes and explanation about the working of algorithm along with its **MATHS**.*
+* **commented/documented**: *If code is well documented/commented for easy understanding for someone trying to learn.*
+* **visualization**: *If visualization regarding the results/working of the algorithms are provided to aid the learning and exploring process.*
+
+
 # Algorithms
 ## Supervised Algorithms
 
-#### Linear Regression
-* Lasso
-* Ridge
-* ElasticNet
-* SGDRegressor
 
+**Linear Regression**
+* **Implementations**
+	* Simple Linear Regression
+	* Multiple Linear Regression
+	* SGDRegressor
+* **Regularization**
+	* Lasso
+	* Ridge
+	* ElasticNet
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
 > NOTE: An implementation with Stochastic Gradient Descent (SGD) optimization is also implemented.
 
-#### Logistic Regression
-* Logistic Regression (Gradient Descent)
-* SGDClassifier (Stochastic Gradient Descent)
 
-#### KNN
-* KNN
-* Weighted KNN (inverse-distance function as weights)
+**Logistic Regression**
+* **Implementations**
+	* Logistic Regression (*Gradient Descent*)
+	* SGDClassifier (*Stochastic Gradient Descent*)
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
 
+
+**KNN**
+* **Implementations**
+	* KNN
+	* Weighted KNN (***inverse-distance** function as weights*)
+* **Visualization**
+	* Results
+	* Decision Boundary
+	* Voronoi Tesselation
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
+	* ✓ visualization
 > NOTE: Both KNN classifiers and regressors are implemented.
 
-#### Fuzzy KNN
-#### Naive Bayes
-* Simple NB
-* Gaussian NB
-* Multinomial NB
 
-#### Decision Trees
+**Fuzzy KNN**
+* Initialization Techniques
+	* Crisp Initialization **@TODO**
+	* Fuzzy Initialization
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
+
+
+**Naive Bayes**
+* **Implementations**
+	* Simple NB
+	* Gaussian NB
+	* Multinomial NB
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
+
+
+**Decision Trees**
 * DecisionTreeClassifier
-	* Splitting Metrics
+	* Splitting Criterion
 		* GINI Impurity
 		* Gain Ratio **@TODO**
+	* **Checklist**
+		* ✓ sklearn
+		* ✓ score comparison
+		* ✓ commented
 * DecisionTreeRegressor **@TODO**
 
 
 ## Unsupervised Algorithms
-
-#### KMeans
-#### KMedoids
-* PAM (Partitioning Around Medoids)
-
-#### MeanShift
+### Flat Clustering
 
 
-## Feature Reduction Algorithms
+**KMeans**
+* **Visualization**
+	* Results
+	* Decision Boundary
+	* Skree Plot
+	* Visualizing Sillhouette scores
+* **Miscellanous Algorithms**
+	* k Estimation using Sillhouette Analysis
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
+	* ✓ visualization
 
-#### PCA (Principal Component Analysis)
+
+**KMedoids**
+* **Implementations**
+	* PAM (Partitioning Around Medoids)
+* **Visualization**
+	* Results
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
 
 
+### Heirarchical Clustering
+**MeanShift**
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
+
+
+### Soft Clustering
+
+
+## Dimensionality Reduction Algorithms
+### Feature Selection
+### Feature Extraction
+**PCA (Principal Component Analysis)**
+* **Checklist**
+	* ✓ sklearn
+	* ✓ score comparison
+
+
+## Anomaly/Outlier Detection Algorithms
+## Association Rule Mining Algorithms
+## Neural Networks
+## Miscellanous Algorithms
+
+
+<br>
 ###### MORE COMING...
 * SVM
+* LDA
+* Fuzzy CMeans
+* Similarity Metrics/Functions
+* Gradient Descent (*Momentum*, *ADAM*...)
+* MedoidShift
+* Softmax Regression
+* Local Outlier Factor
+* Heirarchical KMeans
+* Nearest Centroid Classifier
+* Radius Neighbors (Parzen Windows)
+
 
 # Similar Repositories
 * [Senticircle Algorithm](https://github.com/sahilsehwag/Senticircle-Implementation)
